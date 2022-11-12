@@ -6,6 +6,9 @@ echo "please type 1 for debian,2 for rpm & 3 for arch"
 read choice 
 function debian_upgrade {
     sudo apt update || sudo apt upgrade
+    echo "Now you can either build things or you can download snaps or flatpacks but with some performance degradation"
+    read choice_build
+    if 
 }
 function rpm_upgrade {
     echo "Do you want to check which packages are updating"
