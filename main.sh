@@ -41,4 +41,5 @@ sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
 
 
 #testing for github push
+#testing for withiout login github terminal
 #hopefully this is the end
