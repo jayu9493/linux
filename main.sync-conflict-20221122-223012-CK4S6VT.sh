@@ -1,5 +1,5 @@
 # so this is for managing my linux so i can increase the size of it to 70 GB
-function debian{
+
 #installed apps
 sudo apt update && sudo apt upgrade
 #obsedian
@@ -36,16 +36,9 @@ sudo snap install todoist --edge -y
 #Github-Desktop
 sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.debsudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb
 sudo apt-get install gdebi-core 
-sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb -y 
+sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
 
 #firefox
-sudo apt install firefox -y
+sudo 
 
-}
-
-function fedora{
-    sudo dnf update -y && sudo dnf upgrade -y
-}
-#testing for github push
-#testing for withiout login github terminal
 #hopefully this is the end

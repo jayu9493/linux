@@ -8,7 +8,7 @@ function debian_upgrade {
     sudo apt update || sudo apt upgrade
     echo "Now you can either build things or you can download snaps or flatpacks but with some performance degradation"
     read choice_build
-    if 
+    . /main.sh
 }
 function rpm_upgrade {
     echo "Do you want to check which packages are updating"
@@ -17,6 +17,8 @@ function rpm_upgrade {
     if [ $choice_rpm1 == yes ]; then
         sudo dnf update #it will not work if you are on the other distribution 
     fi
+        continue
+    . /main.sh
 }
 function arch_upgrade {
     echo "Arch will update now"
