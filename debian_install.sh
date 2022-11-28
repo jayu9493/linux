@@ -1,5 +1,5 @@
 # so this is for managing my linux so i can increase the size of it to 70 GB
-function debian{
+
 #installed apps
 sudo apt update && sudo apt upgrade
 #obsedian
@@ -40,5 +40,5 @@ sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb -y
 
 #firefox
 sudo apt install firefox -y
-}
+
 
