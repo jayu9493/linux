@@ -14,12 +14,12 @@ sudo dpkg -i "codium_1.73.1.22314_amd64.deb"
 
 #chromium-browser
 echo "Installing Chromium-browser"
-sudo apt install chromium chromium-l10n -y 
+sudo apt install chromium chromium-l10n -y
 
 #discord
 echo "Installing Discord"
 wget -O discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
-sudo dpkg -i discord.deb 
+sudo dpkg -i discord.deb
 
 #okular
 echo "Installing Okular"
@@ -35,10 +35,10 @@ sudo snap install todoist --edge -y
 
 #Github-Desktop
 sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.debsudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb
-sudo apt-get install gdebi-core 
-sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb
+sudo apt-get install gdebi-core
+sudo gdebi GitHubDesktop-linux-3.1.1-linux1.deb -y
 
 #firefox
-sudo 
+sudo apt install firefox -y
 
-#hopefully this is the end
+

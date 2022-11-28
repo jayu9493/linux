@@ -17,8 +17,8 @@ function rpm_upgrade {
     if [ $choice_rpm1 == yes ]; then
         sudo dnf update #it will not work if you are on the other distribution 
     fi
-        continue
-    . /main.sh
+    echo "Okay no problem"
+    ./rpm_install.sh
 }
 function arch_upgrade {
     echo "Arch will update now"
